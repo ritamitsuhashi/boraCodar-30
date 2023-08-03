@@ -79,6 +79,12 @@ header button {
 }
 
 .movies {
+  display: flex;
+  gap: 36px;
+}
+
+.movie {
     display: flex;
-    gap: 36px;
-  }
+    flex-direction: column;
+    gap: 8px;
+}
